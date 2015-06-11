@@ -1,0 +1,106 @@
+body {
+  background-color: #F5F5F5;
+}
+
+.edit {
+  display: none;
+}
+
+.page {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+
+.completed {
+  text-decoration:line-through;
+}
+
+.contain {
+  background-color: #1D2E4C;
+  height: 500px;
+  width: 795px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
+.contain h1 {
+  color: white;
+  font-size: 6em;
+  padding-top: 30px;
+  font-family: Futura;
+
+}
+
+input {
+  font-size: 16px;
+  color: grey;
+}
+.list {
+  display: inline-block;
+
+}
+
+.bottomRow {
+
+  background-color: white;
+}
+div.itemsLeft {
+  display: inline-block;
+  background-color: white;
+
+  vertical-align: middle;
+  padding-left: 7px;
+  padding-right: 7px;
+  line-height: 2.1;
+  border-radius: 7%;
+  text-align: left;
+
+}
+.navButtons {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+ul.nav.nav-tabs {
+  display: inline-block;
+}
+
+.clearCompleted {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+
+.navButtons:hover {
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.listElements {
+
+  min-height: 200px;
+  background-color: white;
+}
+
+#input {
+  height: 34px;
+}
+
+article.post{
+  padding-left: 10px;
+  text-align: left;
+  font-size: 1.3em;
+  padding-bottom: 3px;
+
+}
+.newToDoSubmit {
+  margin-bottom: 5px;
+}

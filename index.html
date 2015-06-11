@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div class="contain">
+  <h1>todos</h1>
+<div class = "list">
+    <input type="text" id="input" name= "toDo" size = "60" value="What needs to be done?">
+    <a href="#" class="newToDoSubmit btn btn-success">Add todo</a>
+
+<!--     MAIN PAGE -->
+    <div class="allPage page active">
+    <div class="listElements"></div>
+    </div>
+
+  <!--   ACTIVE PAGE -->
+    <div class="activePage page">
+    <div class="listElements activeElements"></div>
+    </div>
+
+<!--     COMPLETED PAGE -->
+    <div class="completedPage page">
+    <div class="listElements completedElements"></div>
+    </div>
+
+
+
+
+    <div class = "bottomRow">
+    <div class = "itemsLeft"></div>
+    <div class="btn-group" role="group" aria-label="...">
+      <a class = "navButtons" href="#" rel=".allPage">All</a>
+      <a class = "navButtons" href="#" rel=".activePage">Active</a>
+      <a class = "navButtons" href="#" rel=".completedPage">Completed</a>
+      <a class = "clearCompleted" href="#">Clear Completed</a>
+    </div>
+
+    <div class = "selectedButtons">
+    <div class="btn-group" role="group" aria-label="...">
+      <a class = "navButtons complete" href="#">Mark Selected as Complete</a>
+      <a class = "navButtons delete" href="#">Delete Selected</a>
+    </div>
+
+
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="bower_components/underscore/underscore.js"> </script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
+  <script type="text/javascript" src="template.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
